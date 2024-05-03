@@ -1,0 +1,30 @@
+x = 5
+if x == 5:
+  print("if statement demo:",str(x))
+endif
+
+for i = 0 to 5:
+  print("for loop demo #1:",str(i))
+next i
+
+for number = 0 to 10:
+  print("for loop demo #2:",str(number))
+next number
+
+a = True
+b = 0
+while a == True:
+  b += 1
+  print("while loop demo:",str(b))
+  if b >= 5:
+    a = False
+  endif
+endwhile
+
+function dosomething(argument):
+  for i in range(0,argument):
+    print("func demo:",str(i))
+  next i
+endfunction
+
+dosomething(8)
