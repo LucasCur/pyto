@@ -1,0 +1,7 @@
+INP
+STA exampleVar
+INP
+ADD exampleVar
+STA exampleVar
+OUT
+HLT
